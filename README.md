@@ -12,7 +12,6 @@ Today we will try to copy the registration page of Asana.
 ## assets
 To improve your work experience we have already prepared the needed graphics assets for this page, you can find that into assets dir.
 
-## how it works
-You should create a branch for your work and push it on this repo when you finished.
+## have a nice coding
 
 ![Screenshot](https://raw.githubusercontent.com/punitkmryh/punitkmryh/master/Developer.gif)
