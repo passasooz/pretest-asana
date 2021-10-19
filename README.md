@@ -1,9 +1,9 @@
 # pretest-asana
 
-Do you know Asana?
-No problem!
+Do you know Asana?<br>
+No problem!<br>
 Asana is a super tool that provides teams and developers a better way to schedule task and workflow.
-
+<br><br>
 Today we will try to copy the registration page of Asana.
 
 ## registration page
