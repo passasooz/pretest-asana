@@ -1,0 +1,63 @@
+.container {
+    display: flex;   
+}
+nav, footer {
+    height: 10vh;
+}
+
+main, aside {
+    height: 100%;
+}
+img {
+    width: 100px;
+    height: auto;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(234, 248, 248);
+    height: 80vh;
+    width: 25vw;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column; 
+    width: 50vw;
+    padding: 200px;
+    align-items: center;
+}
+footer {
+    display: flex;
+    min-width: 100px;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: rgb(1, 30, 49);
+    height: 15px;
+    color: white;
+}
+
+h1 {
+    font-size: 60px;
+}
+.registration {
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 15px;
+    background-color: rgb(78, 54, 212);
+    border: 0;
+    color: white;
+}
