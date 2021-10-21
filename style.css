@@ -1,10 +1,11 @@
 
-header {
-  width: 20vw;
+.logo {
+  width: 10vw;
+  margin: 0;
+  padding: 0;
 }
-header>figure>img{
-    height: 5vh;
-}
+
+
 .container {
   display: flex;
   flex-direction: row;
@@ -21,7 +22,7 @@ header>figure>img{
   text-align: center;
 
   margin-top: 6em;
-  margin-left: 20em;
+margin-right: 20em;
 }
 
 input {
@@ -38,16 +39,13 @@ button {
   background-color: blue;
 }
 
-div > aside {
+main > aside {
   height: 80vh;
-  width: 20vw;
+  width: 30vw;
   display: flex;
   flex-direction: column;
   align-items: center;
-  
-  background-color:aliceblue
-  ;
-  
+    background-color: #F5F5F5;
 }
 
 ul > li {
@@ -59,8 +57,8 @@ ul>li:nth-child(4){
     margin-left: 1em;
 }
 
-figure>img{
-    height: 15vh;
+span>img{
+    height: 4vh;
 }
 footer {
   height: 15vh;
@@ -88,7 +86,9 @@ footer {
 }
 .market {
   display: flex;
-  
+}
+.market > img{
+  height:  6vh;
 }
 
 li > img {
