@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+:root{
+    --paragraph-color: #60747F;
+    --footer-text-color: white;
+    --aside-background-color:#F5F8F9;
+}
+ul{
+    list-style: none;
+}
+
+main{
+    display: flex;
+    height: 90vh;
+    padding-left: 100px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    padding-top: 20px;
+}
+.main-nav{
+
+}
+
+.form-iscrizione{
+    display: flex;
+    flex-direction: column;
+    padding-left: 300px;
+    padding-right: 300px;
+    justify-content: center;
+    flex: 1;
+    gap: 15px;
+    align-items: center;
+}
+.form-iscrizione>h2, .form-iscrizione>p{
+    text-align: center;
+}
+
+.form-iscrizione>button{
+    height: 30px;
+    width: 500px;
+    background-color: #786EFE;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+}
+.form-iscrizione>input[type="email"]{
+    width: 500px;
+    height: 30px;
+    padding-left: 15px;
+}
+.form-iscrizione>input::placeholder{
+    color: var(--paragraph-color);
+}
+
+aside{
+    background-color: var(--aside-background-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 35px;
+    padding-right: 35px;
+    gap: 15px;
+    width: 350px;
+    color: var(--paragraph-color);
+}
+aside>h3{
+    color: black;
+}
+aside>img{
+    max-width: 70px;
+}
+aside>ul>li>img{
+    max-width: 15px;
+    margin-right: 10px;
+}
+aside>ul>li{
+    padding-top: 15px;
+}
+aside>ul>li:last-child{
+    padding-left: 30px;
+}
+
+footer{
+    background-color: #1F2B37;
+    display: flex;
+    justify-content: space-between;
+    color: var(--footer-text-color);
+    height: 10%;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.copyright-privacy{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+.social{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.appstore{
+    display: flex;
+    gap: 5px;
+}
+.appstore>img{
+    max-width: 100px
+}
