@@ -61,6 +61,9 @@ main{
     width: 500px;
     height: 30px;
     padding-left: 15px;
+    border-color: #786EFE ;
+    border-radius: 5px;
+    border-width: 1px;
 }
 .form-iscrizione>input::placeholder{
     color: var(--paragraph-color);
@@ -71,7 +74,6 @@ aside{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     padding-left: 35px;
     padding-right: 35px;
     gap: 15px;
@@ -79,15 +81,19 @@ aside{
     color: var(--paragraph-color);
 }
 aside>h3{
-    color: black;
+    text-align: center;
+    font-weight: 100;
 }
 aside>img{
     max-width: 70px;
+    align-self: center;
 }
+
 aside>ul>li>img{
     max-width: 15px;
     margin-right: 10px;
 }
+
 aside>ul>li{
     padding-top: 15px;
 }
