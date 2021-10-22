@@ -45,12 +45,11 @@ nav {
 
 main {
   height: 75vh;
-  font-size: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 15px;
+  gap: 10px;
   padding-bottom: 100px;
   text-align: center;
 }
@@ -61,11 +60,16 @@ main {
   width: 400px;
   font-size: 11px;
   color: gray;
+  line-height: 15px;
 }
 
-h1 {
-  font-size: 40px;
+.underdot {
+  border-bottom: 1px dotted gray;
+}
+
+.title {
   padding-bottom: 20px;
+  font-size: 45px;
 }
 
 #textarea {
@@ -82,11 +86,21 @@ button {
   color: white;
 }
 
-footer {
+footer,
+.flex-footer > div {
   display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
   color: white;
   height: 15vh;
   background-color: rgb(51, 60, 85);
+}
+
+.flex-footer {
+  display: flex;
+  justify-content: space-between;
+  flex: 0.7;
 }
 
 .flex-container2 * {
@@ -122,4 +136,8 @@ a {
 
 .unmark::before {
   visibility: hidden;
+}
+
+svg {
+  padding-left: 5px;
 }
