@@ -1,0 +1,49 @@
+.block {
+    display: flex;
+}
+
+header, footer {
+    height: 10vh;
+}
+
+main, aside {
+    height: 100%;
+}
+
+.image1 {
+    margin: 20px;
+    padding-left: 100px;
+}
+
+.image2 {
+    width: 100px;
+    height: auto;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(198, 232, 233);
+    justify-content: flex-end;
+    height: 80vh;
+    align-items: center;
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    height: 20px;
+    background-color: rgb(29, 48, 58);
+}
+
+body {
+    margin: 0;
+}
