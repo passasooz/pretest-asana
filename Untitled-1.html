@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+
+           
+            main{
+                display: flex;
+            }
+
+            section{
+                width: 75%;
+            }
+
+            .subscription{
+                font-size: 50px;
+            }
+
+            .main-text{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            button{
+                padding: 20px;
+                background-color: blue;
+                color: white;
+                border: none;
+            }
+
+            aside{
+                display: flex;
+                flex-direction: column;
+                width: 25%;
+                padding:100px;
+                background-color: rgb(206, 201, 201);
+            }
+
+            .check{
+                width: 20px;
+            }
+
+            footer{
+                background-color: hotpink;
+                width: 100%;
+                height: 50px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                padding: 20px;
+            }
+
+
+        </style>
+    </head>
+
+    <body>
+        <main>
+            <section>
+                <div>
+                    <img src="assets/logo_asana.svg" alt="logo asana">
+                </div>
+                <div class="main-text">
+                    <p class="subscription">Iscriviti</p>
+                    <p>Effettuando la registrazione, accetto l'informativa sulla privacy e i Termini di servizio di
+                        Asana</p>
+                    <div>
+                        <input type="text" name="select" placeholder="nome@azienda.com">
+                    </div>
+                    <div>
+                        <button type="submit">Iscriviti</button>
+                    </div>
+                </div>
+            </section>
+            <aside>
+                <img src="assets/img.png" alt="image" width="100px">
+                <p>Il tuo piano include</p>
+                <img class="check" src="assets/list_item_check.png" alt="check"><span>Attività e progetti illimitati</span>
+                <img class="check" src="assets/list_item_check.png" alt="check"><span>Spazio di archiviazione illimitato</span>
+                <img class="check" src="assets/list_item_check.png" alt="check"><span>Viste elenco, bacheca e calendario</span>'
+                <p>E altro ancora</p>
+            </aside>
+        </main>
+        <footer>
+            <p><a href="">2021 Asana,inc</a></p>
+            <p><a href="">Italiano</a></p>
+            <p><a href="">Termini e Privacy</a></p>
+            <div>
+                <img src="assets/twitter.svg" alt="">
+                <img src="assets/linkedin.svg" alt="">
+                <img src="assets/instagram.svg" alt="">
+                <img src="assets/facebook.svg" alt="">
+                <img src="assets/youtube.svg" alt="">
+            </div>
+            <div>
+                <img src="assets/apple_store.svg" alt="">
+                <img src="assets/google_play.svg" alt="">
+            </div>
+
+        </footer>
+    </body>
+
+</html>
