@@ -1,0 +1,35 @@
+body {
+    height: auto;
+}
+
+.flexheader {
+    background-color: white;
+    margin-left: 100px;
+}
+
+main {
+    display: flex;
+    flex-flow: row;
+    
+}
+
+.flexcenter {
+    flex-grow: 4;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+}
+
+.inside {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.flexaside {
+    background-color: cadetblue;
+}
+
+.flexfooter {
+    display: flex;
+    background-color: blue;   
+}
