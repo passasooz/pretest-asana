@@ -2,6 +2,11 @@
   margin: 0;
   border: 0;
   box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.flex-container {
+  display: flex;
 }
 
 nav {
@@ -9,18 +14,19 @@ nav {
   padding: 20px;
 }
 
-body {
+.flex-container {
   width: 100vw;
-  height: 100vh;
+  height: 85vh;
   display: flex;
 }
 
 .flex-container1 {
-  width: 80vw;
+  width: 80%;
 }
 
-aside {
-  width: 20vw;
+.flex-container2 {
+  width: 27vw;
+  height: 85vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -28,48 +34,92 @@ aside {
   background-color: lightgrey;
 }
 
+[src*="img.png"] {
+  width: 100px;
+}
+
+.flex-container2 span {
+  font-size: 20px;
+  padding: 20px;
+}
+
 main {
-  height: 20%;
+  height: 75vh;
   font-size: 50px;
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
-}
-
-.image-aside {
-  width: 100px;
-}
-
-li {
-  padding: 30px;
+  gap: 15px;
+  padding-bottom: 100px;
+  text-align: center;
 }
 
 .signup {
-  font-size: 20px;
+  font-weight: 600px;
+  display: inline-block;
+  width: 400px;
+  font-size: 11px;
   color: gray;
 }
 
 h1 {
-  font-size: 65px;
+  font-size: 40px;
+  padding-bottom: 20px;
 }
 
 #textarea {
-  width: 500px;
-  height: 50px;
+  width: 450px;
+  height: 40px;
   border: 1px solid black;
   padding: 3%;
 }
 
 button {
-  width: 500px;
-  height: 50px;
+  width: 450px;
+  height: 40px;
   background-color: blueviolet;
   color: white;
 }
 
 footer {
-  background-color: rgb(44, 42, 42);
+  display: flex;
+  color: white;
+  height: 15vh;
+  background-color: rgb(51, 60, 85);
+}
+
+.flex-container2 * {
+  text-decoration: none;
+  color: rgb(88, 86, 86);
+}
+
+.flex-container2 ul > li {
+  display: inline-block;
+  list-style: none;
+  padding: 10px;
+}
+
+li > p {
+  display: inline;
+}
+
+a {
+  display: inline-block;
+  width: 225px;
+}
+
+.flex-container2 ul > li::before {
+  content: "";
+  background-repeat: no-repeat;
+  vertical-align: top;
+  background-size: contain;
+  display: inline-block;
+  height: 20px;
+  width: 30px;
+  background-image: url("assets/list_item_check.png");
+}
+
+.unmark::before {
+  visibility: hidden;
 }
