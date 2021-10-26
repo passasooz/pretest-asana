@@ -9,7 +9,7 @@ header, footer {
 }
 
 header {
-    width: 500px;
+    position: absolute;
 }
 
 .image1 {
@@ -38,12 +38,13 @@ aside {
     justify-content: flex-end;
     height: 80vh;
     align-items: center;
+    margin: 0;
 }
 
 footer {
     display: flex;
     justify-content: space-around;
-    padding: 50px;
+    padding: 56px;
     height: 20px;
     background-color: rgb(29, 48, 58);
 }
